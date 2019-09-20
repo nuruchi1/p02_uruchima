@@ -14,6 +14,10 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button button1 = null;
+    private Button button2 = null;
+    private Button button3 = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
