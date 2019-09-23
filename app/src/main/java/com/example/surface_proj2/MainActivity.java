@@ -17,8 +17,8 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private Button button1 = null;
-   // private Button button2 = null;
-  //  private Button button3 = null;
+    private Button button2 = null;
+    private Button button3 = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button1 = findViewById(R.id.b1);
-      //  button2 = findViewById(R.id.b2);
-      //  button3 = findViewById(R.id.b3);
+        button2 = findViewById(R.id.b2);
+        button3 = findViewById(R.id.b3);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,40 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-  /*
-
-
-       <Button
-        android:id="@+id/b2"
-        android:layout_width="105dp"
-        android:layout_height="54dp"
-        android:background="@color/lightGrey"
-        android:text="Color Two"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026" />
-
-    <Button
-        android:id="@+id/b3"
-        android:layout_width="105dp"
-        android:layout_height="54dp"
-        android:background="@color/grey"
-        android:text="Color Three"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026" />
-
-
-
-
-
-   button2.setOnClickListener(new View.OnClickListener()
+        button2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)
@@ -93,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-*/
+
     }
 
     @Override
