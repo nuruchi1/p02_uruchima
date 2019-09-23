@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Surface_proj2</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_starting_page">startingPage</string>
+    <string name="title_activity_starting_page2">startingPage2</string>
+    <string name="title_activity_starting_page3">startingPage3</string>
 </resources>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".startingPage3"
+            android:label="@string/title_activity_starting_page3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".startingPage2"
+            android:label="@string/title_activity_starting_page2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".startingPage"
+            android:label="@string/title_activity_starting_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
